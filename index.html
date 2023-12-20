@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Alt School</title>
+</head>
+
+<body>
+    <main id="root">
+        <nav>
+            <img src="Logo.png" alt="logo" />
+            <div>
+                <p>Download</p>
+                <p>Learn more</p>
+                <p>Pricing</p>
+                <p>Help</p>
+                <button>Account</button>
+            </div>
+        </nav>
+
+        <section id="main-container">
+            <div id="first">
+                <h3>Checkout</h3>
+
+
+                <div class="sub-container">
+                    <div class="heading-container">
+                        <div class="number">1</div>
+                        <p>Your Basic Information</p>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Jane" />
+                        </div>
+                        <div class="form-col">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Doe" />
+                        </div>
+                    </div>
+                    <div class="form-col-half">
+                        <label>Email</label>
+                        <input type="text" placeholder="janedoe@example.com" />
+                    </div>
+                </div>
+                <div class="sub-container">
+                    <div class="heading-container">
+                        <div class="number">2</div>
+                        <p>Your Payment Information</p>
+                    </div>
+                    <div class="form-col-full">
+                        <label>Credit Card</label>
+
+                        <div id="input-container">
+                            <input type="text" placeholder="Card Number" />
+                            <div>
+                                <span>MM / YY</span>
+                                <span>CVC</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button id="buy">Buy WP Pusher</button>
+                <p id="sub-text">Need any help? Don’t hesitate to contact support!</p>
+            </div>
+            <div id="second">
+                <div>
+                    <p id="pricing">Freelancer</p>
+                    <p id="price">$<span>99</span> / year</p>
+                    <p id="renew">Automatically renews after 1 year</p>
+                </div>
+                <div id="checks">
+                    <div class="checklist">
+                        <img src="tick.svg" alt="tick" />
+                        <p>Use on 5 client sites</p>
+                    </div>
+                    <div class="checklist">
+                        <img src="tick.svg" alt="tick" />
+                        <p>Private repositories</p>
+                    </div>
+                    <div class="checklist">
+                        <img src="tick.svg" alt="tick" />
+                        <p> Email support</p>
+                    </div>
+                </div>
+
+                <p id="client-text">Need 20 client sites?
+                    Switch to the Agency plan.</p>
+                <hr />
+
+                <p id="ftp">FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is
+                    awesome!</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

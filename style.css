@@ -1,0 +1,257 @@
+body {
+    background-color: #f5f8fa;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E0E6EA;
+    margin: 0 auto;
+    width: 94%;
+    padding: 12px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+
+    button {
+        padding: 8px;
+        background: #f5f8fa;
+        border: 2px solid #646E7A;
+        border-radius: 4px;
+    }
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #EDEFF2;
+    border-radius: 3px;
+    background: #EDEFF2;
+
+}
+
+.number {
+    border: 2px solid #548BC5;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4px;
+    box-sizing: border-box;
+
+}
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    p {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.1599999964237213px;
+        text-align: left;
+
+    }
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 48%;
+}
+
+.form-col-half {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 75%;
+}
+
+.form-col-full {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+#input-container {
+    background: #EDEFF2;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+
+    input {
+        width: 65% !important;
+    }
+
+    div {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 1px solid #ccc;
+    padding: 15px 10px;
+
+}
+
+
+#first {
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0px 5px 15px 0px #0000000D;
+    background: #fff;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+#buy {
+    width: 100%;
+    background: #038E7D;
+    border: 1px solid #038E7D;
+    padding: 10px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.39600005745887756px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+#second {
+    background: #1179BF;
+    padding: 20px;
+    color: #fff;
+    gap: 10px;
+    width: 30%;
+    box-shadow: 0px 15px 35px 0px #2B404E18;
+}
+
+#main-container {
+    display: flex;
+    align-items: stretch;
+    width: 50%;
+    margin: 3% auto;
+}
+
+#sub-text {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+
+}
+
+.checklist {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.007999998517334461px;
+        text-align: left;
+        margin: 0;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+}
+
+#checks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#client-text {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+#ftp {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.008999999612569809px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+#renew {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+
+}
+
+#price {
+    display: flex;
+    gap: 5px;
+    font-family: Lato;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+
+    span {
+        font-size: 60px !important;
+        font-weight: 300 !important;
+    }
+}
+
+#pricing {
+    font-family: Lato;
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+}
